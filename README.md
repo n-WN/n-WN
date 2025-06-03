@@ -2,6 +2,8 @@
 
 On the moon landing
 
+What interests me: [https://n-wn.github.io/my-stars/](my-stars)
+
 <!--
 **n-WN/n-WN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
