@@ -2,7 +2,7 @@
 
 On the moon landing
 
-What interests me: [https://n-wn.github.io/my-stars/](my-stars)
+What interests me: [my-stars](https://n-wn.github.io/my-stars/)
 
 <!--
 **n-WN/n-WN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -26,6 +26,7 @@ Here are some ideas to get you started:
 - **Cryptography Development** @[上海期智研究院](https://sqz.ac.cn/) `远程`  
 - **Security Development** @[北京大学长沙研究院](https://icode.pku.edu.cn/) `长沙`  
 - **Security Engineer** @[长亭科技](https://www.chaitin.cn/) `北京`
+- **Intern at the Technology Center** @[货拉拉](https://www.huolala.cn/) `北京`
 
 ### 🛠 Projects & Contributions 
 
