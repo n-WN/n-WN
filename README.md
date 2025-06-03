@@ -1,8 +1,10 @@
 ## `cat` `n-WN_info`
 
-On the moon landing
+On the **moon**(Moonshot AI) landing
 
 What interests me: [my-stars](https://n-wn.github.io/my-stars/)
+
+[My Resume](https://github.com/n-WN/resume/blob/master/resume-en-post.pdf) (in English) [我的简历](https://github.com/n-WN/resume/blob/master/resume-cn-post.pdf) (in Chinese)
 
 <!--
 **n-WN/n-WN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
