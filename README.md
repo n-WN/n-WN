@@ -39,15 +39,15 @@ Here are some ideas to get you started:
 | <a href="https://github.com/ctf-wiki/ctf-wiki"><img align="center" src="https://github-readme-stats.vercel.app/api/pin?username=ctf-wiki&repo=ctf-wiki&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&hide_border=true" /></a> | <a href="https://github.com/OI-wiki/OI-wiki"><img align="center" src="https://github-readme-stats.vercel.app/api/pin?username=OI-wiki&repo=OI-wiki&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&hide_border=true" /></a> |
 | <a href="https://github.com/Samueli924/chaoxing"><img align="center" src="https://github-readme-stats.vercel.app/api/pin?username=n-wn&repo=chaoxing_fork&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&hide_border=true" /></a> | <a href="https://github.com/ProbiusOfficial/Hello-CTF"><img align="center" src="https://github-readme-stats.vercel.app/api/pin?username=ProbiusOfficial&repo=Hello-CTF&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&hide_border=true" /></a> |
 
-## 📬 我的 GPG 公钥
+## 📬 My GPG Public Key
 
-你可以使用我的 GPG 公钥验证我签名的 Git 提交或文章，或用来发送加密邮件给我。
+You can use my GPG public key to verify my signed Git commits or articles, or to send me encrypted messages.
 
 **Key ID**: `0x1EB827B30D383CD1`  
 **Fingerprint**: `BC62 BE7C 421C 8DA7 141A B99F 1EB8 27B3 0D38 3CD1`  
-**用途**: 签名 / 加密 / 认证  
+**Usage**: Signing / Encryption / Authentication  
 
-或者直接粘贴：
+Or simply copy and paste the key below:
 
 ```gpg
 -----BEGIN PGP PUBLIC KEY BLOCK-----
