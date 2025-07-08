@@ -47,8 +47,6 @@ Here are some ideas to get you started:
 **Fingerprint**: `BC62 BE7C 421C 8DA7 141A B99F 1EB8 27B3 0D38 3CD1`  
 **用途**: 签名 / 加密 / 认证  
 
-[🔑 下载公钥（.asc）](https://yourblog.com/gpg-public-key.asc)
-
 或者直接粘贴：
 
 ```gpg
