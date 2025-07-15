@@ -2,6 +2,8 @@
 
 On the **moon**(Moonshot AI) landing
 
+大事记: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in Crypto CTF 2025, belonging to every member
+
 What interests me: [my-stars](https://n-wn.github.io/my-stars/)
 
 [My Resume](https://github.com/n-WN/resume/blob/master/resume-en-post.pdf) (in English) [我的简历](https://github.com/n-WN/resume/blob/master/resume-cn-post.pdf) (in Chinese)
