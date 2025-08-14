@@ -2,7 +2,9 @@
 
 On the **moon**(Moonshot AI) landing
 
-大事记: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in Crypto CTF 2025, belonging to every member
+Founder [正规子群](https://ctftime.org/team/365958) aka. Normal Subgroup
+
+Boom: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in Crypto CTF 2025, belonging to every member
 
 What interests me: [my-stars](https://n-wn.github.io/my-stars/)
 
