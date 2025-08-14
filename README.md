@@ -2,7 +2,9 @@
 
 On the **moon**(Moonshot AI) landing
 
-Founder [正规子群](https://ctftime.org/team/365958) aka. Normal Subgroup
+期待能有一份不看学历的 AI Agent 相关的工作
+
+Founder [正规子群](https://ctftime.org/team/365958) aka. [Normal Subgroup](https://normalsubgroup.cauchy.top/)
 
 Boom: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in Crypto CTF 2025, belonging to every member
 
