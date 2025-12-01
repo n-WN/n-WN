@@ -33,6 +33,7 @@ Here are some ideas to get you started:
 
 > Intern or past or now
 
+- **AI Agent Engineer** @[Sider AI](https://sider.ai/) `onsite`
 - **Cryptography Development** @[上海期智研究院](https://sqz.ac.cn/) `远程`  
 - **Software Developer Engineer** @[北京大学长沙研究院](https://icode.pku.edu.cn/) `长沙`  
 - **Security Engineer** @[长亭科技](https://www.chaitin.cn/) `北京`
