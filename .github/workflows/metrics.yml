@@ -49,7 +49,7 @@ jobs:
           plugin_languages_indepth: true
 
       - uses: lowlighter/metrics@latest
-        name: Repo: sagemath-vscode-enhanced
+        name: Repo sagemath
         with:
           filename: metrics-repo-sagemath.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -58,89 +58,4 @@ jobs:
           user: n-WN
           template: repository
           repo: sagemath-vscode-enhanced
-          base: "" 
           config_timezone: Asia/Shanghai
-
-      - uses: lowlighter/metrics@latest
-        name: Repo: Pwn4Sage
-        with:
-          filename: metrics-repo-Pwn4Sage.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_branch: metrics
-          committer_message: "chore: update metrics"
-          user: n-WN
-          template: repository
-          repo: Pwn4Sage
-          base: "" 
-
-      - uses: lowlighter/metrics@latest
-        name: Repo: translate-shell
-        with:
-          filename: metrics-repo-translate-shell.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_branch: metrics
-          committer_message: "chore: update metrics"
-          user: n-WN
-          template: repository
-          repo: translate-shell
-          base: "" 
-
-      - uses: lowlighter/metrics@latest
-        name: Repo: share_these
-        with:
-          filename: metrics-repo-share_these.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_branch: metrics
-          committer_message: "chore: update metrics"
-          user: n-WN
-          template: repository
-          repo: share_these
-          base: "" 
-
-      - uses: lowlighter/metrics@latest
-        name: Repo: ctf-wiki
-        with:
-          filename: metrics-repo-ctf-wiki.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_branch: metrics
-          committer_message: "chore: update metrics"
-          user: ctf-wiki
-          template: repository
-          repo: ctf-wiki
-          base: "" 
-
-      - uses: lowlighter/metrics@latest
-        name: Repo: OI-wiki
-        with:
-          filename: metrics-repo-OI-wiki.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_branch: metrics
-          committer_message: "chore: update metrics"
-          user: OI-wiki
-          template: repository
-          repo: OI-wiki
-          base: "" 
-
-      - uses: lowlighter/metrics@latest
-        name: Repo: chaoxing
-        with:
-          filename: metrics-repo-chaoxing.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_branch: metrics
-          committer_message: "chore: update metrics"
-          user: Samueli924
-          template: repository
-          repo: chaoxing
-          base: "" 
-
-      - uses: lowlighter/metrics@latest
-        name: Repo: Hello-CTF
-        with:
-          filename: metrics-repo-Hello-CTF.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_branch: metrics
-          committer_message: "chore: update metrics"
-          user: ProbiusOfficial
-          template: repository
-          repo: Hello-CTF
-          base: "" 
