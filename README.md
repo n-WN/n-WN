@@ -42,7 +42,8 @@ Here are some ideas to get you started:
 ### 🛠 Projects & Contributions 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/github-metrics.svg" alt="Metrics" width="100%">
+  <img src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-personal.svg" alt="Personal Metrics" width="100%">
+  <img src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repos.svg" alt="Repository Metrics" width="100%">
 </div>
 
 ## 📬 My GPG Public Key
