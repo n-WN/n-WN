@@ -1,8 +1,6 @@
 name: Metrics
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit
+  schedule: [{cron: "0 */12 * * *"}] # Every 12 hours (10 steps is heavy)
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 
@@ -12,54 +10,168 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Step 1: Personal Stats & Languages
-      # Mimics the first row of the original table (Stats | Languages)
+      # ----------------------------------------------------------------
+      # 1. Personal Stats (Mimics github-readme-stats card)
+      # ----------------------------------------------------------------
       - uses: lowlighter/metrics@latest
-        name: Personal Metrics
+        name: Personal Stats
         with:
-          filename: metrics-personal.svg
+          filename: metrics-stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
-          committer_message: "chore: update personal metrics"
+          committer_message: "chore: update metrics"
           
-          # Options
           user: n-WN
           template: classic
-          config_timezone: Asia/Shanghai
-          
-          # Content: Activity (Commits/PRs) + Community (Stars etc)
-          # REMOVED: header (too big), repositories (moved to separate file), metadata
           base: activity, community
+          config_timezone: Asia/Shanghai
+          config_width: 480
+          config_padding: 0, 8
+
+      # ----------------------------------------------------------------
+      # 2. Top Languages (Mimics github-readme-stats/top-langs)
+      # ----------------------------------------------------------------
+      - uses: lowlighter/metrics@latest
+        name: Top Languages
+        with:
+          filename: metrics-langs.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
           
-          # Plugin: Languages
+          user: n-WN
+          template: classic
+          base: ""
+          config_timezone: Asia/Shanghai
+          config_width: 350
+          config_padding: 0, 8
+          
           plugin_languages: yes
           plugin_languages_ignored: html, css, javascript
-          plugin_languages_details: bytes-size, percentage
+          plugin_languages_details: percentage
           plugin_languages_limit: 8
+          # compact layout usually means a simple bar
           plugin_languages_sections: most-used
           plugin_languages_indepth: yes
 
-      # Step 2: Pinned Repositories
-      # Mimics the grid of pinned repos
+      # ----------------------------------------------------------------
+      # 3. Pinned Repositories (8 separate cards)
+      # ----------------------------------------------------------------
+      
+      # Repo 1: sagemath-vscode-enhanced
       - uses: lowlighter/metrics@latest
-        name: Repository Metrics
+        name: Repo: sagemath-vscode-enhanced
         with:
-          filename: metrics-repos.svg
+          filename: metrics-repo-sagemath.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
-          committer_message: "chore: update repo metrics"
+          committer_message: "chore: update metrics"
           
-          # Options
           user: n-WN
-          template: classic
+          template: repository
+          repo: sagemath-vscode-enhanced
+          base: "" 
           config_timezone: Asia/Shanghai
+
+      # Repo 2: Pwn4Sage
+      - uses: lowlighter/metrics@latest
+        name: Repo: Pwn4Sage
+        with:
+          filename: metrics-repo-Pwn4Sage.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
           
-          # Content: Only repositories
-          base: ""
+          user: n-WN
+          template: repository
+          repo: Pwn4Sage
+          base: "" 
+
+      # Repo 3: translate-shell
+      - uses: lowlighter/metrics@latest
+        name: Repo: translate-shell
+        with:
+          filename: metrics-repo-translate-shell.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
           
-          # Plugin: Repositories
-          plugin_repositories: yes
-          plugin_repositories_featured: n-WN/sagemath-vscode-enhanced, n-WN/Pwn4Sage, n-WN/translate-shell, n-WN/share_these, ctf-wiki/ctf-wiki, OI-wiki/OI-wiki, Samueli924/chaoxing, ProbiusOfficial/Hello-CTF
-          # Compact/gallery layout? Defaults to list in classic, let's try to enable more details if possible
-          # but classic template puts them in a list.
-          plugin_repositories_pinned: 0 # We use featured list instead
+          user: n-WN
+          template: repository
+          repo: translate-shell
+          base: "" 
+
+      # Repo 4: share_these
+      - uses: lowlighter/metrics@latest
+        name: Repo: share_these
+        with:
+          filename: metrics-repo-share_these.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          
+          user: n-WN
+          template: repository
+          repo: share_these
+          base: "" 
+
+      # Repo 5: ctf-wiki/ctf-wiki
+      # EXTERNAL repo requires 'repo: owner/repo' and user arg might need adjustment?
+      # Actually 'template: repository' works with 'repo' arg. If it's another user's repo, 
+      # we might need to specify that. 
+      # Docs say: `user` is mandatory, but `repo` can be full name?
+      # Let's try specifying just 'repo: ctf-wiki/ctf-wiki' (full name).
+      - uses: lowlighter/metrics@latest
+        name: Repo: ctf-wiki
+        with:
+          filename: metrics-repo-ctf-wiki.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          
+          user: ctf-wiki
+          template: repository
+          repo: ctf-wiki
+          base: "" 
+
+      # Repo 6: OI-wiki/OI-wiki
+      - uses: lowlighter/metrics@latest
+        name: Repo: OI-wiki
+        with:
+          filename: metrics-repo-OI-wiki.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          
+          user: OI-wiki
+          template: repository
+          repo: OI-wiki
+          base: "" 
+
+      # Repo 7: Samueli924/chaoxing
+      - uses: lowlighter/metrics@latest
+        name: Repo: chaoxing
+        with:
+          filename: metrics-repo-chaoxing.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          
+          user: Samueli924
+          template: repository
+          repo: chaoxing
+          base: "" 
+
+      # Repo 8: ProbiusOfficial/Hello-CTF
+      - uses: lowlighter/metrics@latest
+        name: Repo: Hello-CTF
+        with:
+          filename: metrics-repo-Hello-CTF.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          
+          user: ProbiusOfficial
+          template: repository
+          repo: Hello-CTF
+          base: "" 

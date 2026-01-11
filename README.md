@@ -41,10 +41,12 @@ Here are some ideas to get you started:
 
 ### 🛠 Projects & Contributions 
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-personal.svg" alt="Personal Metrics" width="100%">
-  <img src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repos.svg" alt="Repository Metrics" width="100%">
-</div>
+| <a href="https://github.com/n-WN"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-stats.svg" alt="n-WN's github stats" /></a> | <a href="https://github.com/n-WN"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-langs.svg" /></a> |
+| ------------- | ------------- |
+| <a href="https://github.com/n-WN/sagemath-vscode-enhanced"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repo-sagemath.svg" /></a> | <a href="https://github.com/n-WN/Pwn4Sage"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repo-Pwn4Sage.svg" /></a> |
+| <a href="https://github.com/n-WN/translate-shell"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repo-translate-shell.svg" /></a> | <a href="https://github.com/n-WN/share_these"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repo-share_these.svg" /></a> |
+| <a href="https://github.com/ctf-wiki/ctf-wiki"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repo-ctf-wiki.svg" /></a> | <a href="https://github.com/OI-wiki/OI-wiki"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repo-OI-wiki.svg" /></a> |
+| <a href="https://github.com/Samueli924/chaoxing"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repo-chaoxing.svg" /></a> | <a href="https://github.com/ProbiusOfficial/Hello-CTF"><img align="center" src="https://raw.githubusercontent.com/n-WN/n-WN/metrics/metrics-repo-Hello-CTF.svg" /></a> |
 
 ## 📬 My GPG Public Key
 
