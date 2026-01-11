@@ -27,3 +27,36 @@ jobs:
           config_timezone: Asia/Shanghai
           config_width: 480
           config_padding: 0, 8
+
+      - uses: lowlighter/metrics@latest
+        name: Top Languages
+        with:
+          filename: metrics-langs.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          user: n-WN
+          template: classic
+          base: ""
+          config_timezone: Asia/Shanghai
+          config_width: 350
+          config_padding: 0, 8
+          plugin_languages: "yes"
+          plugin_languages_ignored: html, css, javascript
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: "yes"
+
+      - uses: lowlighter/metrics@latest
+        name: Repo: sagemath-vscode-enhanced
+        with:
+          filename: metrics-repo-sagemath.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: metrics
+          committer_message: "chore: update metrics"
+          user: n-WN
+          template: repository
+          repo: sagemath-vscode-enhanced
+          base: "" 
+          config_timezone: Asia/Shanghai
