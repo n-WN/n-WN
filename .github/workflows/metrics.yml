@@ -1,8 +1,12 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 */12 * * *"}] # Every 12 hours (10 steps is heavy)
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
   github-metrics:
@@ -10,9 +14,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      # ----------------------------------------------------------------
-      # 1. Personal Stats (Mimics github-readme-stats card)
-      # ----------------------------------------------------------------
       - uses: lowlighter/metrics@latest
         name: Personal Stats
         with:
@@ -20,7 +21,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: n-WN
           template: classic
           base: activity, community
@@ -28,9 +28,6 @@ jobs:
           config_width: 480
           config_padding: 0, 8
 
-      # ----------------------------------------------------------------
-      # 2. Top Languages (Mimics github-readme-stats/top-langs)
-      # ----------------------------------------------------------------
       - uses: lowlighter/metrics@latest
         name: Top Languages
         with:
@@ -38,27 +35,19 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: n-WN
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
           config_width: 350
           config_padding: 0, 8
-          
-          plugin_languages: yes
+          plugin_languages: "yes"
           plugin_languages_ignored: html, css, javascript
           plugin_languages_details: percentage
           plugin_languages_limit: 8
-          # compact layout usually means a simple bar
           plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
+          plugin_languages_indepth: "yes"
 
-      # ----------------------------------------------------------------
-      # 3. Pinned Repositories (8 separate cards)
-      # ----------------------------------------------------------------
-      
-      # Repo 1: sagemath-vscode-enhanced
       - uses: lowlighter/metrics@latest
         name: Repo: sagemath-vscode-enhanced
         with:
@@ -66,14 +55,12 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: n-WN
           template: repository
           repo: sagemath-vscode-enhanced
           base: "" 
           config_timezone: Asia/Shanghai
 
-      # Repo 2: Pwn4Sage
       - uses: lowlighter/metrics@latest
         name: Repo: Pwn4Sage
         with:
@@ -81,13 +68,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: n-WN
           template: repository
           repo: Pwn4Sage
           base: "" 
 
-      # Repo 3: translate-shell
       - uses: lowlighter/metrics@latest
         name: Repo: translate-shell
         with:
@@ -95,13 +80,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: n-WN
           template: repository
           repo: translate-shell
           base: "" 
 
-      # Repo 4: share_these
       - uses: lowlighter/metrics@latest
         name: Repo: share_these
         with:
@@ -109,18 +92,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: n-WN
           template: repository
           repo: share_these
           base: "" 
 
-      # Repo 5: ctf-wiki/ctf-wiki
-      # EXTERNAL repo requires 'repo: owner/repo' and user arg might need adjustment?
-      # Actually 'template: repository' works with 'repo' arg. If it's another user's repo, 
-      # we might need to specify that. 
-      # Docs say: `user` is mandatory, but `repo` can be full name?
-      # Let's try specifying just 'repo: ctf-wiki/ctf-wiki' (full name).
       - uses: lowlighter/metrics@latest
         name: Repo: ctf-wiki
         with:
@@ -128,13 +104,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: ctf-wiki
           template: repository
           repo: ctf-wiki
           base: "" 
 
-      # Repo 6: OI-wiki/OI-wiki
       - uses: lowlighter/metrics@latest
         name: Repo: OI-wiki
         with:
@@ -142,13 +116,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: OI-wiki
           template: repository
           repo: OI-wiki
           base: "" 
 
-      # Repo 7: Samueli924/chaoxing
       - uses: lowlighter/metrics@latest
         name: Repo: chaoxing
         with:
@@ -156,13 +128,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: Samueli924
           template: repository
           repo: chaoxing
           base: "" 
 
-      # Repo 8: ProbiusOfficial/Hello-CTF
       - uses: lowlighter/metrics@latest
         name: Repo: Hello-CTF
         with:
@@ -170,7 +140,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: metrics
           committer_message: "chore: update metrics"
-          
           user: ProbiusOfficial
           template: repository
           repo: Hello-CTF
