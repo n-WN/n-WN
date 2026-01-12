@@ -25,7 +25,6 @@ jobs:
           template: classic
           base: activity, community
           config_timezone: Asia/Shanghai
-          config_width: 480
           config_padding: 0, 8
 
       - uses: lowlighter/metrics@latest
@@ -39,7 +38,6 @@ jobs:
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
-          config_width: 350
           config_padding: 0, 8
           plugin_languages: true
           plugin_languages_ignored: html, css, javascript
