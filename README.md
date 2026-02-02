@@ -12,7 +12,7 @@ Boom: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in 
 
 What interests me: [my-stars](https://n-wn.github.io/my-stars/)
 
-[My Resume](https://github.com/n-WN/resume/blob/master/resume-en-post.pdf) (in English) [我的简历](https://github.com/n-WN/resume/blob/master/resume-cn-post.pdf) (in Chinese)
+[My Resume (outdated, in English)](https://github.com/n-WN/resume/blob/master/resume-en-post.pdf) | [我的简历（已过时）](https://github.com/n-WN/resume/blob/master/resume-cn-post.pdf)
 
 <!--
 **n-WN/n-WN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
