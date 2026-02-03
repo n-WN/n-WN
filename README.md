@@ -13,8 +13,8 @@ Boom: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in 
 Boom: 以 [正规子群](https://ctftime.org/team/365958) 的身份 (单挑/solo) 参与 [阿里 CTF (线上赛)](https://www.aliyunctf.com/leaderboard) 获得 🥉[季军](https://xz.aliyun.com/news/91567)
 
 <div style="display: flex; gap: 10px;">
-  <img height="300" src="https://github.com/user-attachments/assets/961e3bec-f573-4416-a400-6166a3773920" />
-  <img height="300" src="https://github.com/user-attachments/assets/9594c915-590f-49ef-90b6-7056f145bbcd" />
+  <img height="260" src="https://github.com/user-attachments/assets/961e3bec-f573-4416-a400-6166a3773920" />
+  <img height="260" src="https://github.com/user-attachments/assets/9594c915-590f-49ef-90b6-7056f145bbcd" />
 </div>
 
 What interests me: [my-stars](https://n-wn.github.io/my-stars/)
