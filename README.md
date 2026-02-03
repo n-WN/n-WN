@@ -8,7 +8,7 @@ On the **moon**(Moonshot AI) landing
 
 Founder [正规子群](https://ctftime.org/team/365958) aka. [Normal Subgroup](https://normalsubgroup.cauchy.top/)
 
-Boom: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in Crypto CTF 2025, belonging to every member
+Boom: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in [Crypto CTF 2025](https://cr.yp.toc.tf/scoreboard), belonging to every member
 
 Boom: 以 [正规子群](https://ctftime.org/team/365958) 的身份 (单挑/solo) 参与 [阿里 CTF (线上赛)](https://www.aliyunctf.com/leaderboard) 获得 🥉[季军](https://xz.aliyun.com/news/91567)
 
