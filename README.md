@@ -12,8 +12,7 @@ Boom: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in 
 
 Boom: 正规子群 solo 阿里 CTF (线上赛) 🥉[季军](https://xz.aliyun.com/news/91567)
 
-<img width="946" height="477" alt="图片" src="https://github.com/user-attachments/assets/961e3bec-f573-4416-a400-6166a3773920" />
-
+<img height="260" alt="图片" src="https://github.com/user-attachments/assets/961e3bec-f573-4416-a400-6166a3773920" />
 
 What interests me: [my-stars](https://n-wn.github.io/my-stars/)
 
