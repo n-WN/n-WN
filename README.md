@@ -10,6 +10,11 @@ Founder [正规子群](https://ctftime.org/team/365958) aka. [Normal Subgroup](h
 
 Boom: "[正规子群](https://ctftime.org/team/365958)"  achieved 10th place in Crypto CTF 2025, belonging to every member
 
+Boom: 正规子群 solo 阿里 CTF (线上赛) 🥉[季军](https://xz.aliyun.com/news/91567)
+
+<img width="946" height="477" alt="图片" src="https://github.com/user-attachments/assets/961e3bec-f573-4416-a400-6166a3773920" />
+
+
 What interests me: [my-stars](https://n-wn.github.io/my-stars/)
 
 [My Resume (outdated, in English)](https://github.com/n-WN/resume/blob/master/resume-en-post.pdf) | [我的简历（已过时）](https://github.com/n-WN/resume/blob/master/resume-cn-post.pdf)
