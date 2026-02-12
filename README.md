@@ -1,8 +1,6 @@
 ## `cat` `n-WN_info`
 
-On the **moon**(Moonshot AI) landing
-
-> 这里的 `landing` 只是期待能落地
+**Moonwalker** @ Moonshot AI (Aspiring)
 
 期待能有一份不看学历的 AI Agent 相关的 [大厂/独角兽] 工作，现在的工作很好，只是有大厂情结，26届民办本科
 
