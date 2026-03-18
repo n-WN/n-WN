@@ -17,9 +17,9 @@ Boom: 以 [正规子群](https://ctftime.org/team/365958) 的身份 (单挑/solo
 
 What interests me: [my-stars](https://n-wn.github.io/my-stars/)
 
-[My Resume (outdated, in English)](https://github.com/n-WN/resume/blob/master/resume-en-post.pdf) | [我的简历（已过时）](https://github.com/n-WN/resume/blob/master/resume-cn-post.pdf)
+[My Resume (outdated, in English)](https://github.com/n-WN/) | [我的简历（已过时）](https://github.com/n-WN/)
 
-> 这是我的简历，实际做的事情比简历上要多，同时 Agent 很多经验/品位 也是简历上不容易体现的，期望有所交流
+> 这是我的简历，实际做的事情比简历上要多，同时 Agent 很多经验/品味 也是简历上不容易体现的，期望有所交流
 
 <!--
 **n-WN/n-WN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
