@@ -1,8 +1,6 @@
 ## `cat` `n-WN_info`
 
-**Moonwalker** @ Moonshot AI (Aspiring)
-
-期待能有一份不看学历的 AI Agent 相关的 [大厂/独角兽] 工作，现在的工作很好，只是有大厂情结，26届民办本科
+**Moonwalker** @ ~~Moonshot AI~~(secret)
 
 Founder [正规子群](https://ctftime.org/team/365958) aka. [Normal Subgroup](https://normalsubgroup.cauchy.top/)
 
